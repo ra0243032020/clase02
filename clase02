@@ -1,0 +1,24 @@
+cd C:\Users\FAMILIA\Documents\GitHub\clase-1\com.unab.clase02; "JAVA_HOME=C:\\Program Files\\Java\\jdk-14" cmd /c "\"C:\\Program Files\\NetBeans-12.0\\netbeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.args=\"-classpath %classpath com.mycompany.com.unab.clase02.ClaseInicial\" -Dexec.executable=\"C:\\Program Files\\Java\\jdk-14\\bin\\java.exe\" -Dmaven.ext.class.path=\"C:\\Program Files\\NetBeans-12.0\\netbeans\\java\\maven-nblib\\netbeans-eventspy.jar\" -Dfile.encoding=UTF-8 process-classes org.codehaus.mojo:exec-maven-plugin:1.5.0:exec"
+Scanning for projects...
+
+-------------------< com.mycompany:com.unab.clase02 >-------------------
+Building com.unab.clase02 1.0-SNAPSHOT
+--------------------------------[ jar ]---------------------------------
+
+--- maven-resources-plugin:2.6:resources (default-resources) @ com.unab.clase02 ---
+Using 'UTF-8' encoding to copy filtered resources.
+skip non existing resourceDirectory C:\Users\FAMILIA\Documents\GitHub\clase-1\com.unab.clase02\src\main\resources
+
+--- maven-compiler-plugin:3.1:compile (default-compile) @ com.unab.clase02 ---
+Changes detected - recompiling the module!
+Compiling 2 source files to C:\Users\FAMILIA\Documents\GitHub\clase-1\com.unab.clase02\target\classes
+
+--- exec-maven-plugin:1.5.0:exec (default-cli) @ com.unab.clase02 ---
+El libro 1 tiene mayor numero de paginas que el libro 2, el libro 1 tiene un numero de paginas de 800
+La informacion del libro 1 es Libros{id=1, NombreLibro=PROGRAMACION JAVA, NumeroPaginas=800, Autor=Deitel}
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  3.598 s
+Finished at: 2020-08-20T20:04:15-03:00
+------------------------------------------------------------------------
